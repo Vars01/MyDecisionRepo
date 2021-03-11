@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44266.493050162"/>
+						<Prp name="durationwithoutchildren" type="I" value="4527"/>
+						<Prp name="name" type="S" value="Navigate_to_FT_tab_thr_Task"/>
+						<Prp name="duration" type="I" value="4527"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEYANAAxADcANQA5AEQALQAzADcARQAzAC0ANAA4AEUAQwAtAEEAMgBDADkALQA2ADUAQwA5AEEAMwA1ADEAOABDAEYANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44266.493102662"/>
+						<Prp name="durationwithoutchildren" type="I" value="1926"/>
+						<Prp name="name" type="S" value="Logout"/>
+						<Prp name="duration" type="I" value="1926"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEMAMwA1ADYAMABCADgALQBEAEUARgA0AC0ANABBADAANgAtADkANgBEADMALQAzADgANQAxAEYAQQA2AEIAMAA3ADQAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44266.4925647222"/>
+						<Prp name="durationwithoutchildren" type="I" value="41933"/>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="duration" type="I" value="41933"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDAEEAMwBBADUAMQBDADEALQBGAEIAQgAwAC0ANAA1ADAAQQAtAEIANgA1ADMALQA5ADUAMwA0ADkAQwA2ADMANQA1ADQAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="44266.4925647222"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="DecisionNGAutomation"/>
+				<Prp name="duration" type="I" value="48386"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44266.4931262384"/>
+		<Prp name="testname" type="S" value="DecisionNGAutomation"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="name" type="S" value="DecisionNGAutomation"/>
+		<Prp name="key" type="S" value="{295D6DF3-7EAC-45C3-A310-312BD5E952B5}"/>
+		<Prp name="host" type="S" value="INLT2505"/>
+		<Prp name="user" type="S" value="varsha.chitray"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44266.4925581134"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

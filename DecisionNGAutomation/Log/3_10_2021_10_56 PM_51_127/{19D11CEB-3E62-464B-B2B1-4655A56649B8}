@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="44265.9565432407"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44265.9565869907"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{03D58F85-9542-4C09-81B1-BEC4F06F48DB}"/>
+				<Prp name="name" type="S" value="Navigate_to_FT_tab_thr_Task [KeywordTests - Navigate_to_FT_tab_thr_Task]"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44265.9561476042"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44265.9565431597"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{AF0DDC3F-AD51-49CE-A49E-037E33C293DA}"/>
+				<Prp name="name" type="S" value="Login [KeywordTests - Login]"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44265.9565870718"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44265.9566063657"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{0B98C8F4-0331-47C4-95FD-1623DAB5BF89}"/>
+				<Prp name="name" type="S" value="Logout [KeywordTests - Logout]"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

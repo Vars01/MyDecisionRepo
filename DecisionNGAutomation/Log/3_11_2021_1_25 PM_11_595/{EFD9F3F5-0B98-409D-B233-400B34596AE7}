@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="name" type="S" value="Login [KeywordTests - Login]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44266.5593972569"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{5558FEE7-8EF9-4161-A7F4-FF96CFAA1544}"/>
+				<Prp name="start time" type="D" value="44266.5591621991"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="name" type="S" value="Navigate_to_Task_SearchTask_OpenTask [KeywordTests - Navigate_to_Task_SearchTask_OpenTask]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="end time" type="D" value="44266.5594194907"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{1EABE638-028D-49C2-88C2-3E7B347287FA}"/>
+				<Prp name="start time" type="D" value="44266.5593973264"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="name" type="S" value="Logout [KeywordTests - Logout]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="end time" type="D" value="44266.5594625231"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{2153D34A-0686-4F9A-A6F3-3F4471B14B1C}"/>
+				<Prp name="start time" type="D" value="44266.559443588"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="name" type="S" value="Open_FT_Tab_in_Task [KeywordTests - Open_FT_Tab_in_Task]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44266.5594435069"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{D3E52901-440E-4FDA-A82C-0D9C40879FC1}"/>
+				<Prp name="start time" type="D" value="44266.5594196065"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
